@@ -1,6 +1,6 @@
-package ru.greenlight.springmvchibernate.service;
+package ru.greenlight.springboot.service;
 
-import ru.greenlight.springmvchibernate.models.User;
+import ru.greenlight.springboot.models.User;
 
 import java.util.List;
 

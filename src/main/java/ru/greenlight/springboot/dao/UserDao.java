@@ -1,6 +1,6 @@
-package ru.greenlight.springmvchibernate.dao;
+package ru.greenlight.springboot.dao;
 
-import ru.greenlight.springmvchibernate.models.User;
+import ru.greenlight.springboot.models.User;
 
 import java.util.List;
 

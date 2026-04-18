@@ -1,13 +1,13 @@
-package ru.greenlight.springmvchibernate.dao;
+package ru.greenlight.springboot.dao;
 
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
-import ru.greenlight.springmvchibernate.models.User;
+import ru.greenlight.springboot.models.User;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityNotFoundException;
-import javax.persistence.PersistenceContext;
-import javax.persistence.TypedQuery;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
 import java.util.List;
 
 @Repository

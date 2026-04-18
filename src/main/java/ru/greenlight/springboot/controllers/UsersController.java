@@ -1,7 +1,7 @@
-package ru.greenlight.springmvchibernate.controllers;
+package ru.greenlight.springboot.controllers;
 
-import javax.persistence.EntityNotFoundException;
-import javax.validation.Valid;
+import jakarta.persistence.EntityNotFoundException;
+import jakarta.validation.Valid;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -9,8 +9,8 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import ru.greenlight.springmvchibernate.models.User;
-import ru.greenlight.springmvchibernate.service.UserService;
+import ru.greenlight.springboot.models.User;
+import ru.greenlight.springboot.service.UserService;
 
 @Controller
 @RequiredArgsConstructor

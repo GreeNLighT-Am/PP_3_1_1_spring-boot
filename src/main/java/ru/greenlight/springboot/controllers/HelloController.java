@@ -1,4 +1,4 @@
-package ru.greenlight.springmvchibernate.controllers;
+package ru.greenlight.springboot.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

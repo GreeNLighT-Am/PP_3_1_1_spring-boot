@@ -1,9 +1,9 @@
-package ru.greenlight.springmvchibernate.service;
+package ru.greenlight.springboot.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.greenlight.springmvchibernate.dao.UserDao;
-import ru.greenlight.springmvchibernate.models.User;
+import ru.greenlight.springboot.dao.UserDao;
+import ru.greenlight.springboot.models.User;
 
 import java.util.List;
 
